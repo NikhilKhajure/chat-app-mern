@@ -1,0 +1,38 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome h1 {
+    color: white;
+}
+
+.welcome h2 {
+    color: white;
+}
+
+/* 
+HeaderCsss */
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: white;
+}
+
+.currentUser {
+    display: flex;
+    gap: 2rem;
+}
+
+.currentUser img {
+    height: 3rem;
+}
+
+.logout {
+    color: white;
+    background-color: white;
+    height: 1rem;
+}
